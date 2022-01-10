@@ -5,12 +5,12 @@ student_scores = {
   "Draco": 74,
   "Neville": 62,
 }
-#Don't change the code above 👆
+# Don't change the code above 👆
 
-#TODO-1: Create an empty dictionary called student_grades.
+# Create an empty dictionary called student_grades.
 student_grades = {}
 
-#TODO-2: Write your code below to covert scores into grades.👇
+# Write your code below to covert scores into grades.👇
 for student in student_scores:
   score = student_scores[student]
   if score > 90:
@@ -23,7 +23,7 @@ for student in student_scores:
     student_grades[student] = "Fail"
     
 
-#Don't change the code below 👇
+# Don't change the code below 👇
 print(student_grades)
 
 
@@ -52,7 +52,7 @@ print(student_grades)
 
 
 
-#Write your code above this line 👆
+# Write your code above this line 👆
 # 🚨 Do NOT modify the code below this line 👇
 
 with open('testing_copy.py', 'w') as file:
