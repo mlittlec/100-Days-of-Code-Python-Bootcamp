@@ -2,6 +2,21 @@ import turtle as t
 import random
 
 tim = t.Turtle()
+
+colours = ["CornflowerBlue", "DarkOrchid", "IndianRed", "DeepSkyBlue", "LightSeaGreen", "wheat", "SlateGray", "SeaGreen"]
+directions = [0, 90, 180, 270]
+tim.pensize(10)
+tim.speed("fast")
+
+for _ in range(200):
+    tim.color(random.choice(colours))
+    tim.forward(30)
+    tim.setheading(random.choice(directions))
+    
+import turtle as t
+import random
+
+tim = t.Turtle()
 t.colormode(255)
 
 def random_color():
@@ -9,7 +24,7 @@ def random_color():
     g = random.randint(0, 255)
     b = random.randint(0, 255)
     random_color = (r, g, b)
-    retrun random_color
+    return random_color
 
 # RGB Colour Calculator : w3schools.com/colors/colors_rgb.asp
 colours = ["CornflowerBlue", "DarkOrchid", "IndianRed", "DeepSkyBlue", "LightSeaGreen", "wheat", "SlateGray", "SeaGreen"]
@@ -22,4 +37,3 @@ for _ in range(200):
     tim.color(random_color())
     tim.forward(30)
     tim.setheading(random.choice(directions))
-    
