@@ -1,7 +1,7 @@
 import turtle as turtle_module
 import random
 
-#import cologram
+#import colorgram
 
 # rgb_colors = []
 # colors = colorgram.extract('image.jpg', 30)
@@ -30,7 +30,7 @@ for dot_count in range(1, number_of_dots):
     tim.dot(20, random.choice(color_list))
     tim.forward(50)
     
-    if dor_count % 10 == 0:
+    if dot_count % 10 == 0:
         tim.setheading(90)
         tim.forward(50)
         tim.setheading(180)
