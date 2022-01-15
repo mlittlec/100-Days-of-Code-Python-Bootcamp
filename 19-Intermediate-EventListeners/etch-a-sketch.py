@@ -6,6 +6,31 @@ screen = Screen()
 def move_forwards():
     tim.forward(10)
     
+
+def move_backwards():
+    tim.backward(10)
+
+
+def turn.left():
+    new_heading = tim.heading() + 10
+    tim.setheading(new_heading)
+
+
+def turn_right():
+    new_heading = tim.heading() - 10
+    tim.setheading(new_heading)
+
+def clear():
+    tim.clear()
+    tim.penup()
+    tim.home()
+    tim.pendown()
+
+
 screen.listen()
-screen.onkey(move_forward, "space")
+screen.onkey(move_forward, "w")
+screen.onkey(move_backwards, "s")
+screen.onkey(turn_left, "a")
+screen.onkey(turn_right, "wd")
+screen.onkey(clear, "c")
 screen.exitonclick()
