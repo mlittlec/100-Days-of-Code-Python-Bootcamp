@@ -1,4 +1,5 @@
 from turtle import Screen, Turtle
+from paddle import Paddle
 
 screen = Screen()
 screen.bgcolor("black")
