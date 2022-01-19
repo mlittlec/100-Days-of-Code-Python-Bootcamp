@@ -10,7 +10,7 @@ print(black_squirrels_count)
 
 data_dict = {
     "Fur Color": ["Gray", "Cinnamon", "Black"],
-    "Count": [grey_squirrel_count, red_squirrel_count, black_squirrel_count]
+    "Count": [grey_squirrels_count, red_squirrels_count, black_squirrels_count]
 }
 
 print(data_dict)
