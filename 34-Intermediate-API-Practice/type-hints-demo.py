@@ -1,3 +1,4 @@
+# These are type hints
 age: int
 name: str
 height: float
