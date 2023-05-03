@@ -1,6 +1,6 @@
 [[package]]
 name = "certifi"
-version = "2020.12.5"
+version = "2022.12.07"
 description = "Python package for providing Mozilla's CA Bundle."
 category = "main"
 optional = false
