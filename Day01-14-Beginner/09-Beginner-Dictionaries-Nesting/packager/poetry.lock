@@ -43,7 +43,7 @@ dotenv = ["python-dotenv"]
 
 [[package]]
 name = "idna"
-version = "2.10"
+version = "3.7"
 description = "Internationalized Domain Names in Applications (IDNA)"
 category = "main"
 optional = false
